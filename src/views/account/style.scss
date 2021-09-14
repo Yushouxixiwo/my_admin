@@ -1,0 +1,20 @@
+.account{
+    width: 100vw;
+    height:100vh;
+    background-color: peru;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .form-wrap{
+        width: 285px;
+        height: auto;
+        // padding-top: 100px;
+        color:aliceblue;
+        label{
+            display: block;
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+    
+}
