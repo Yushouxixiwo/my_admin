@@ -20,7 +20,7 @@
     
 </template>
 <script>
-import LayoutAside from './components/Aside';
+import LayoutAside from './components/aside/Index.vue';
 import LayoutHeader from './components/Header';
 import LayoutMain from './components/Main';
 export default {

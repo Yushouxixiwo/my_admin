@@ -76,7 +76,10 @@ const routes = [
   {
     path:"/news",
     name:"News",
-    component:()=>import("../views/News.vue")
+    meta:{
+      title:"信息管理"
+    },
+    component: ()=>import('../views/layout/Index.vue')
   }
 ]
 
